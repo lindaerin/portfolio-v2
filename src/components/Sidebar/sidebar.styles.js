@@ -5,16 +5,17 @@ import { FaTimes } from 'react-icons/fa';
 export const SidebarContainer = styled.aside `
     position: fixed;
     z-index: 999;
-    width: 100%;
+    width: 25%;
     height: 100%;
-    background: #0d0d0d;
+    background: #404042;
     display: grid;
     align-items: center;
-    top: 0;
+    bottom: 0;
     left: 0;
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    left: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    box-shadow: 3px 5px 5px #404042;
 `;
 
 export const CloseIcon = styled(FaTimes) `
@@ -26,7 +27,7 @@ export const Icon = styled.div `
     top: 1.2rem;
     right: 1.5rem;
     background: transparent;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     outline: none;
 `;
@@ -38,29 +39,27 @@ export const SidebarWrapper = styled.div `
 export const SidebarMenu = styled.ul ` 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 100px);
+    grid-template-rows: repeat(5, 5rem);
     text-align: center;
 
     @media screen and (max-width: 480px){
-        grid-template-columns: repeat(6, 60px);
+        grid-template-columns: repeat(6, 4rem);
     }
 `
 
 export const SidebarLink = styled(Link)` 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 1.5rem;
+    justify-content: flex-start;
+    font-size: 1.2rem;
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #fff;
+    color: #e5e5e5;
     cursor: pointer;
 
-    &.hover {
-        color: #01bf71;
+    &:hover {
+        color: #94BCE2;
         transition: 0.2s ease-in-out;
     }
 `
