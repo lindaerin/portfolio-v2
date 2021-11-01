@@ -2,8 +2,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
-import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import WorkPage from "./pages/WorkPage";
+import DesignPage from "./pages/DesignPage";
+import ScrollTop from "./components/ScrollTop";
 
 import "../src/index.css";
 
@@ -18,12 +22,12 @@ function App() {
     <Router>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      {/* <ScrollTop /> */}
+      <ScrollTop />
       <Switch>
-        <Route path="/" component={HomePage} exact />
-        {/* <Route path="/about" component={AboutPage} exact />
-        <Route path="/work" component={WorkPage} exact />
-        <Route path="/design" component={DesignPage} exact /> */}
+        <Route path="/portfolio" component={HomePage} exact />
+        <Route path="/portfolio/about" component={AboutPage} exact />
+        <Route path="/portfolio/work" component={WorkPage} exact />
+        <Route path="/portfolio/design" component={DesignPage} exact />
       </Switch>
       <Footer />
     </Router>
