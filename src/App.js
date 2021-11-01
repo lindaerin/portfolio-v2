@@ -1,15 +1,16 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 import "../src/index.css";
 
 function App() {
-  
   return (
     <Router>
       {/* <Sidebar isOpen={isOpen} toggle={toggle} /> */}
       <Navbar />
+      <Hero />
       {/* <ScrollTop />
       <Switch>
         <Route path="/" component={HomePage} exact />
