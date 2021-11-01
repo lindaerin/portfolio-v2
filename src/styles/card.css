@@ -1,0 +1,25 @@
+
+.card {
+  padding: 23px;
+}
+
+
+.card-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: fill;
+}
+
+.card-title {
+  font-size: 24px;
+  padding-top: 15px;
+  font-family: "Bitter", serif;
+}
+
+@media only screen and (min-width: 1600px) {
+  .card-img {
+    width: 2000px;
+  }
+}
