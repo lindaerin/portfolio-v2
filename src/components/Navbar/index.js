@@ -18,7 +18,7 @@ export default function Navbar({ toggle }) {
     <>
       <Nav>
         <NavContainer>
-          <NavLogo to="/">
+          <NavLogo to="/portfolio">
               {"Linda Li \nCode & Design"}
           </NavLogo>
 
