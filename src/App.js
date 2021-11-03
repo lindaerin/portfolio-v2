@@ -24,10 +24,10 @@ function App() {
       <Navbar toggle={toggle} />
       <ScrollTop />
       <Switch>
-        <Route path="/portfolio" component={HomePage} exact />
-        <Route path="/portfolio/about" component={AboutPage} exact />
-        <Route path="/portfolio/work" component={WorkPage} exact />
-        <Route path="/portfolio/design" component={DesignPage} exact />
+        <Route path="/" component={HomePage} exact />
+        <Route path="/about" component={AboutPage} exact />
+        <Route path="/work" component={WorkPage} exact />
+        <Route path="/design" component={DesignPage} exact />
       </Switch>
       <Footer />
     </Router>
