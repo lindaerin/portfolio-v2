@@ -94,7 +94,7 @@ const Work = () => {
             </div>
             <div className="container-text">
               <p>User Interface Design</p>
-              <a href="/design">
+              <a href="design">
                 <button className="btn">View Projects</button>
               </a>
             </div>
