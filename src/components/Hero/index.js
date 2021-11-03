@@ -24,7 +24,7 @@ const Hero = () => {
     <>
       <HeroContainer>
         <HeroContent>
-          <HeroH1 className="slideInHeader">
+          <HeroH1 className="slide-in-header">
             <HighlightedTextString
               styledDiv={HeroH1}
               highlightedWords={[" ", "Developer"]}
@@ -34,12 +34,12 @@ const Hero = () => {
             </HighlightedTextString>
           </HeroH1>
 
-          <HeroDescription className="slideInText">
+          <HeroDescription className="slide-in-text">
             I'm a front end developer who is passionate about learning new
             technologies with a keen eye for creating engaging and innovated UI
             design.
           </HeroDescription>
-          <HeroBtnWrapper className="slideInBtn">
+          <HeroBtnWrapper className="slide-in-btn">
             <LearnMoreButton to="/about" onMouseEnter={onHover} onMouseLeave={onHover}>
               Learn More {hover ? <ArrowForward /> : <ArrowRight />}
             </LearnMoreButton>

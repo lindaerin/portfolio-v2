@@ -21,7 +21,7 @@ export const HeroContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    padding: 0 30px 60px;
+    padding: 0 30px 0;
     height: 500px;
   }
 `;

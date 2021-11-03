@@ -14,25 +14,28 @@ export const AboutContent = styled.div`
     flex-direction: column;
     row-gap: 2rem;
   }
+  @media screen and (max-width: 480px) {
+    padding: 0 5px 0;
+  }
 `;
 
 export const AboutImg = styled.div`
   background-color: none;
-
   max-width: 100%;
-  @media screen and (max-width: 90px) {
-    width: 100%;
-  }
 `;
 
 export const AboutDescription = styled.div`
   color: #e5e5e5;
   width: 50%;
   max-width: 100%;
-
   padding: 0 2rem 0;
+
   @media screen and (max-width: 1200px) {
     width: 92%;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 0 1rem 0;
   }
 `;
 
@@ -47,6 +50,10 @@ export const AboutP = styled.p`
   line-height: 29px;
   font-size: 18px;
   align-items: center;
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
+  }
 `;
 
 export const SkillIcons = styled.div`

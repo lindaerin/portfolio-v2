@@ -20,14 +20,14 @@ import "../../styles/card.css";
 const Work = () => {
   return (
     <WorkContainer>
-      <Header className="slideInHeader">{"Recent Works"}</Header>
-      <Description className="slideInHeader">
+      <Header className="slide-in-header">{"Recent Works"}</Header>
+      <Description className="slide-in-header">
         {
           "Here is a collection of my recent projects including Web Application, UI Designs, and UX Case Studies."
         }
       </Description>
       <AppContainer className="app-container">
-        <WorkHeader className="slideInHeader">{"Web Applications"}</WorkHeader>
+        <WorkHeader className="slide-in-header">{"Web Applications"}</WorkHeader>
         <AppContent className="app-content">
           
               <Container className="container">
@@ -72,7 +72,7 @@ const Work = () => {
       </AppContainer>
 
       <AppContainer className="app-container">
-        <WorkHeader className="slideInHeader">{"Design & Case Studies"}</WorkHeader>
+        <WorkHeader className="slide-in-header">{"Design & Case Studies"}</WorkHeader>
         <AppContent className="app-content">
           <Container className="container">
             <div className="container-img">

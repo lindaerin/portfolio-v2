@@ -35,7 +35,7 @@ export const FooterH1 = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (min-width: 400px) {
+  @media screen and (max-width: 400px) {
     font-size: 35px;
   }
 `;

@@ -40,16 +40,20 @@ export const SidebarMenu = styled.ul `
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 5rem);
-    text-align: center;
+    
+    /* text-align: center; */
+
 
     @media screen and (max-width: 480px){
-        grid-template-columns: repeat(6, 4rem);
+        grid-template-rows: repeat(6, 4rem);
+        padding: 1.5rem;
     }
 `
 
 export const SidebarLink = styled(Link)` 
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     font-size: 1.2rem;
     text-decoration: none;
     list-style: none;
@@ -61,5 +65,9 @@ export const SidebarLink = styled(Link)`
     &:hover {
         color: #94BCE2;
         transition: 0.2s ease-in-out;
+    }
+
+    @media screen and (max-width: 480px){
+        font-size: 1rem;
     }
 `

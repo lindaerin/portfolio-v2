@@ -24,13 +24,3 @@ export const InfoContent = styled.div`
     grid-gap: rem;
   }
 `;
-
-export const CardContainer = styled.div`
-  height: auto;
-  max-width: 100%;
-  border: none;
-  background: #353434;
-  border-radius: 10px;
-  cursor: pointer;
-  color: #e5e5e5;
-`;

@@ -35,14 +35,14 @@ import {
 const About = () => {
   return (
     <>
-      <AboutContainer id="AboutContainer">
-        <AboutContent id="AboutContent">
-          <AboutImg className="slideInHeader">
+      <AboutContainer>
+        <AboutContent>
+          <AboutImg className="slide-in-header">
             <img src={AboutPic} alt="" className="about-img" />
           </AboutImg>
 
           <AboutDescription className="about-description">
-            <AboutHeader className="slideInHeader">
+            <AboutHeader className="slide-in-header">
               <HighlightedTextString
                 styledDiv={AboutHeader}
                 highlightedWords={[" ", "Linda"]}
@@ -52,7 +52,7 @@ const About = () => {
               </HighlightedTextString>
             </AboutHeader>
 
-            <AboutP className="slideInText">
+            <AboutP className="slide-in-text">
               Let me introduce myself. I recently obtained my degree
               in Computer Science at The City College of New York. In the recent
               years I discovered my enjoyment for creating intuitive, visual
@@ -81,7 +81,7 @@ const About = () => {
 
         </AboutContent>
 
-        <ExpContent className="slideInBox">
+        <ExpContent className="slide-in-box">
           <ExpHeader>{"Journey & \nExperiences So Far"}</ExpHeader>
           <ExpInfo>
             <ExpItem>
