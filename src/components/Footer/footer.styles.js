@@ -28,7 +28,7 @@ export const FooterContent = styled.div`
 
 export const FooterH1 = styled.div`
   color: #94BCE2;
-  font-size: 55px;
+  font-size: 45px;
   font-family: "Bitter", serif;
   line-height: 70px;
   display: flex;
@@ -45,7 +45,6 @@ export const FooterP = styled.p`
   justify-content: center;
   font-size: 17px;
   color: #e5e5e5;
-  margin-top: 24px;
 `;
 
 
@@ -53,8 +52,7 @@ export const FooterBtnLink = styled.div`
   border-radius: 50px;
   background: none;
   white-space: nowrap;
-  padding: 16px 21px;
-
+  padding: 10px 21px;
   color: #e5e5e5;
   font-size: 16px;
   outline: none;

@@ -8,7 +8,6 @@ export const AboutContainer = styled.div`
 
 export const AboutContent = styled.div`
   display: flex;
-  /* flex-direction: row; */
 
   @media screen and (max-width: 900px) {
     flex-direction: column;
@@ -41,7 +40,7 @@ export const AboutDescription = styled.div`
 
 export const AboutHeader = styled.div`
   font-family: "Bitter", serif;
-  margin-top: -27px;
+  margin-top: -20px;
   margin-bottom: -10px;
   font-size: 30px;
 `;

@@ -46,7 +46,6 @@
 
 .container-text p {
   color: white;
-
   font-size: 24px;
   font-weight: 550;
   margin-top: 27%;
@@ -62,7 +61,7 @@
 
 .container button {
   background: none;
-  border: #94bce2 solid 1.6px;
+  border: #94bce2 solid 2px;
   border-radius: 10rem;
   margin: 0;
   position: absolute;
@@ -77,7 +76,8 @@
   -moz-transition: opacity 0.6s;
   transition: opacity 0.6s;
   cursor: pointer;
-
+  color: #fff;
+  font-weight: 550;
 }
 
 
