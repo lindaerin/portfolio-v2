@@ -21,6 +21,5 @@ export const InfoContent = styled.div`
 
   @media screen and (max-width: 900px) {
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: rem;
   }
 `;
