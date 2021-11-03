@@ -35,7 +35,7 @@ const Hero = () => {
           </HeroH1>
 
           <HeroDescription className="slide-in-text">
-            I'm a front end developer who is passionate about learning new
+            A front end developer who is passionate about learning new
             technologies with a keen eye for creating engaging and innovated UI
             design.
           </HeroDescription>

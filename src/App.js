@@ -7,7 +7,8 @@ import Work from "./components/Work";
 import Design from "./components/UIDesign";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
-import ScrollTop from "./components/ScrollTop";
+import ScrollTopBtn from "./components/ScrollTopBtn";
+import ScrollToTop from "./components/ScrollToTop";
 
 import "../src/index.css";
 
@@ -21,7 +22,8 @@ function App() {
     <Router>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <ScrollTop />
+      <ScrollTopBtn />
+      <ScrollToTop />
       <Switch>
         <Route path="/" component={HomePage} exact />
         <Route path="/about" component={About} exact />

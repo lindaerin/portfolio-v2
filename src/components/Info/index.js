@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { InfoContainer, InfoContent } from "./info.styles";
 import { Container } from "react-bootstrap";
 import "../../styles/container.css";
@@ -17,9 +18,10 @@ const InfoSection = () => {
             </div>
             <div className="container-text">
               <p>Web Application</p>
-              <button className="btn">
-                <a href="/work">View Projects</a>
-              </button>
+
+              <Link to="work">
+                <button className="btn">View Projects</button>
+              </Link>
             </div>
           </Container>
           <Container className="container">
@@ -28,9 +30,9 @@ const InfoSection = () => {
             </div>
             <div className="container-text">
               <p>User Interface Designs</p>
-              <button className="btn">
-                <a href="/design">View Projects</a>
-              </button>
+              <Link to="design">
+                <button className="btn">View Projects</button>
+              </Link>
             </div>
           </Container>
         </InfoContent>

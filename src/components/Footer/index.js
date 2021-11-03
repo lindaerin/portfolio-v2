@@ -7,6 +7,7 @@ import {
   FooterMenu,
   FooterLinks
 } from "./footer.styles.js";
+import Resume from "../../assets/Resume/Li_Linda_Resume.pdf";
 
 const Footer = () => {
   return (
@@ -27,7 +28,7 @@ const Footer = () => {
             </FooterLinks>
 
             <FooterLinks>
-              Resume
+              <a href={Resume} target="_blank" rel="noreferrer" download="Linda Li's Resume">Resume</a>
             </FooterLinks>
 
           </FooterMenu> 

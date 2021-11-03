@@ -27,52 +27,66 @@ const Work = () => {
         }
       </Description>
       <AppContainer className="app-container">
-        <WorkHeader className="slide-in-header">{"Web Applications"}</WorkHeader>
+        <WorkHeader className="slide-in-header">
+          {"Web Applications"}
+        </WorkHeader>
         <AppContent className="app-content">
-          
-              <Container className="container">
-                <div className="container-img">
-                  <img src={SchoolFinderProject} alt=""></img>
-                </div>
-                <div className="container-text">
-                  <p>School Finder React App</p>
-                  <button className="btn">
-                    <a href="https://github.com/lindaerin/school-finder" target="_blank" rel="noreferrer">View Projects</a>
-                  </button>
-                </div>
-              </Container>
+          <Container className="container">
+            <div className="container-img">
+              <img src={SchoolFinderProject} alt=""></img>
+            </div>
+            <div className="container-text">
+              <p>School Finder React App</p>
+
+              <a
+                href="https://github.com/lindaerin/school-finder"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn">View Project</button>
+              </a>
+            </div>
+          </Container>
 
           <Container className="container">
-                <div className="container-img">
-                  <img src={WebPortfolioProject} alt=""></img>
-                </div>
-                <div className="container-text">
-                  <p>Web Portfolio React App</p>
-                  <button className="btn">
-                    <a href="https://github.com/lindaerin/web-portfolio" target="_blank" rel="noreferrer">View Projects</a>
-                  </button>
-                </div>
-              </Container>
-          
+            <div className="container-img">
+              <img src={WebPortfolioProject} alt=""></img>
+            </div>
+            <div className="container-text">
+              <p>Web Portfolio React App</p>
+              <a
+                href="https://github.com/lindaerin/web-portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn">View Project</button>
+              </a>
+            </div>
+          </Container>
 
           <Container className="container">
-                <div className="container-img">
-                  <img src={TeamProject} alt=""></img>
-                </div>
-                <div className="container-text">
-                  <p>Teaming System Flask App</p>
-                  <button className="btn">
-                    <a href="https://github.com/lindaerin/teaming-app" target="_blank" rel="noreferrer">View Projects</a>
-                  </button>
-                </div>
-              </Container>
-          
-         
+            <div className="container-img">
+              <img src={TeamProject} alt=""></img>
+            </div>
+            <div className="container-text">
+              <p>Teaming System Flask App</p>
+
+              <a
+                href="https://github.com/lindaerin/teaming-app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn">View Project</button>
+              </a>
+            </div>
+          </Container>
         </AppContent>
       </AppContainer>
 
       <AppContainer className="app-container">
-        <WorkHeader className="slide-in-header">{"Design & Case Studies"}</WorkHeader>
+        <WorkHeader className="slide-in-header">
+          {"Design & Case Studies"}
+        </WorkHeader>
         <AppContent className="app-content">
           <Container className="container">
             <div className="container-img">
@@ -80,9 +94,9 @@ const Work = () => {
             </div>
             <div className="container-text">
               <p>User Interface Design</p>
-              <button className="btn">
-                <a href="/design">View Projects</a>
-              </button>
+              <a href="/design">
+                <button className="btn">View Projects</button>
+              </a>
             </div>
           </Container>
         </AppContent>
