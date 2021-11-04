@@ -11,19 +11,14 @@ A web application from scratch to display skills and recent works
 For local development
 
 ### Getting Started
-1. Clone the repository
-
-```
-git clone https://github.com/your_username_/Project-Name.git
-```
-2.Install npm packages 
+Install and run
 ```
 npm install
 npm start
 ```
 * Program will launch at: http://localhost:3000
 
-3.Build the app for production to the build folder
+Build the app for production to the build folder
 ```
 npm run build
 ```
