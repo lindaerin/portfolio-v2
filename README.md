@@ -18,7 +18,7 @@ npm start
 ```
 * Program will launch at: http://localhost:3000
 
-Build the app for production to the build folder
+Build the app for production 
 ```
 npm run build
 ```
