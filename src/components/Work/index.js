@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Header,
   Description,
@@ -94,9 +95,9 @@ const Work = () => {
             </div>
             <div className="container-text">
               <p>User Interface Design</p>
-              <a href="design">
+              <Link to="design">
                 <button className="btn">View Projects</button>
-              </a>
+              </Link>
             </div>
           </Container>
         </AppContent>
