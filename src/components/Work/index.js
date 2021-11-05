@@ -6,7 +6,7 @@ import {
   WorkContainer,
   WorkHeader,
   AppContainer,
-  AppContent,
+  AppContent
 } from "./work.styles.js";
 
 import { Container } from "react-bootstrap";
@@ -28,9 +28,9 @@ const Work = () => {
         }
       </Description>
       <AppContainer className="app-container">
-        <WorkHeader className="slide-in-header">
+        {/* <WorkHeader className="slide-in-header">
           {"Web Applications"}
-        </WorkHeader>
+        </WorkHeader> */}
         <AppContent className="app-content">
           <Container className="container">
             <div className="container-img">
@@ -82,19 +82,14 @@ const Work = () => {
             </div>
           </Container>
         </AppContent>
-      </AppContainer>
 
-      <AppContainer className="app-container">
-        <WorkHeader className="slide-in-header">
-          {"Design & Case Studies"}
-        </WorkHeader>
         <AppContent className="app-content">
           <Container className="container">
             <div className="container-img">
               <img src={BookDesign} alt=""></img>
             </div>
             <div className="container-text">
-              <p>User Interface Design</p>
+              <p>Daily  UI Design</p>
               <Link to="design">
                 <button className="btn">View Projects</button>
               </Link>

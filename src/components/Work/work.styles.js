@@ -54,14 +54,15 @@ export const AppContent = styled.div`
 `;
 
 export const UIContainer = styled.div`
-  padding-top: 10px;
+  padding-top: 2px;
 `;
 
 export const UIContent = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 1.4rem;
   padding: 1rem 0 1rem;
+  height: 50%;
 
   @media screen and (max-width: 900px) {
     grid-template-columns: repeat(1, 1fr);
