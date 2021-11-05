@@ -7,7 +7,7 @@ import {
   FooterMenu,
   FooterLinks
 } from "./footer.styles.js";
-import Resume from "../../assets/Resume/Li_Linda_Resume.pdf";
+import Resume from "../../assets/Resume/Li_Linda.pdf";
 
 const Footer = () => {
   return (
