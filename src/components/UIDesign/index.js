@@ -9,7 +9,7 @@ import {
 import { Card } from "react-bootstrap";
 import SteamDesign from "../../assets/images/steam-design.png";
 import BookDesign from "../../assets/images/reading-design.png";
-import GhibliDesign from "../../assets/images/ghibli-design.png";
+// import GhibliDesign from "../../assets/images/ghibli-design.png";
 
 import "../../styles/card.css";
 

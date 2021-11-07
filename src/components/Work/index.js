@@ -4,7 +4,6 @@ import {
   Header,
   Description,
   WorkContainer,
-  WorkHeader,
   AppContainer,
   AppContent
 } from "./work.styles.js";
