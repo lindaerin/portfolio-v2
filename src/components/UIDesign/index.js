@@ -1,11 +1,10 @@
 import React from "react";
 import {
-  WorkContainer,
-  WorkHeader,
-  UIContent,
+  Header,
+  Description,
   CardContainer,
-  UIContainer,
 } from "../Work/work.styles.js";
+import { UIContainer, UIContent } from "./design.styles.js";
 import { Card } from "react-bootstrap";
 import SteamDesign from "../../assets/images/steam-design.png";
 import BookDesign from "../../assets/images/reading-design.png";
@@ -15,9 +14,13 @@ import "../../styles/card.css";
 
 const Design = () => {
   return (
-    <WorkContainer>
       <UIContainer className="slideInBox">
-        <WorkHeader>{"UI Design"}</WorkHeader>
+        <Header>{"UI Design"}</Header>
+        <Description className="slide-in-header">
+        {
+          "Here is a collection of my recent project of web and mobile designs"
+        }
+      </Description>
         <UIContent>
           <CardContainer>
             <Card className="card">
@@ -36,7 +39,6 @@ const Design = () => {
           </CardContainer> */}
         </UIContent>
       </UIContainer>
-    </WorkContainer>
   );
 };
 

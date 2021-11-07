@@ -23,13 +23,10 @@ const Work = () => {
       <Header className="slide-in-header">{"Recent Works"}</Header>
       <Description className="slide-in-header">
         {
-          "Here is a collection of my recent projects including Web Application, UI Designs, and UX Case Studies."
+          "Here is a collection of my recent projects including Web Applications, UI Designs, and UX Case Studies."
         }
       </Description>
       <AppContainer className="app-container">
-        {/* <WorkHeader className="slide-in-header">
-          {"Web Applications"}
-        </WorkHeader> */}
         <AppContent className="app-content">
           <Container className="container">
             <div className="container-img">
