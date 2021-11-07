@@ -28,7 +28,7 @@ export const FooterContent = styled.div`
 
 export const FooterH1 = styled.div`
   color: #94BCE2;
-  font-size: 45px;
+  font-size: 40px;
   font-family: "Bitter", serif;
   line-height: 70px;
   display: flex;
