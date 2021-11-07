@@ -29,11 +29,11 @@ const Design = () => {
               <Card.Img variant="top" src={BookDesign} className="card-img" />
             </Card>
           </CardContainer>
-          <CardContainer>
+          {/* <CardContainer>
             <Card className="card">
               <Card.Img variant="top" src={GhibliDesign} className="card-img" />
             </Card>
-          </CardContainer>
+          </CardContainer> */}
         </UIContent>
       </UIContainer>
     </WorkContainer>
