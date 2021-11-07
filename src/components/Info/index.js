@@ -17,7 +17,7 @@ const InfoSection = () => {
               <img src={Code} alt=""></img>
             </div>
             <div className="container-text">
-              <p>Web Application</p>
+              <p>Applcations</p>
 
               <Link to="work">
                 <button className="btn">View Projects</button>
