@@ -5,10 +5,11 @@ import {
   Description,
   WorkContainer,
   AppContainer,
-  AppContent
+  AppContent,
 } from "./work.styles.js";
 
 import { Container } from "react-bootstrap";
+
 import TeamProject from "../../assets/images/teaming-project.png";
 import SchoolFinderProject from "../../assets/images/school-finder-project.png";
 import WebPortfolioProject from "../../assets/images/web-portfolio-project.png";
@@ -28,6 +29,7 @@ const Work = () => {
       </Description>
       <AppContainer className="app-container">
         <AppContent className="app-content">
+
           <Container className="container">
             <div className="container-img">
               <img src={SchoolFinderProject} alt=""></img>
@@ -85,7 +87,7 @@ const Work = () => {
               <img src={BookDesign} alt=""></img>
             </div>
             <div className="container-text">
-              <p>Daily  UI Design</p>
+              <p>Daily UI Design</p>
               <Link to="design">
                 <button className="btn">View Projects</button>
               </Link>

@@ -1,8 +1,7 @@
 
 .card {
-  padding: 23px;
+  border: none;
 }
-
 
 .card-img {
   display: block;
