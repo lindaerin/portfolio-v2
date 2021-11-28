@@ -2,12 +2,8 @@ import React from "react";
 import { Header, Description } from "../Work/work.styles.js";
 import { UIContainer, UIContent } from "./design.styles.js";
 import { Card } from "react-bootstrap";
-import SteamDesign from "../../assets/images/steam-design.png";
-import BookDesign from "../../assets/images/reading-design.png";
-import FlightDesign from "../../assets/images/flight-design.png";
-// import GhibliDesign from "../../assets/images/ghibli-design.png";
-
 import "../../styles/card.css";
+import images from "./data";
 
 const Design = () => {
   return (
@@ -17,18 +13,11 @@ const Design = () => {
         {"Here is a collection of my recent project of web and mobile designs"}
       </Description>
       <UIContent className="slide-in-box">
+        {images.map((image) => (
           <Card className="card">
-            <Card.Img variant="top" src={SteamDesign} className="card-img" />
+            <Card.Img variant="top" src={image.img} className="card-img" />
           </Card>
-        
-      
-          <Card className="card">
-            <Card.Img variant="top" src={BookDesign} className="card-img" />
-          </Card>
-
-          <Card className="card">
-            <Card.Img variant="top" src={FlightDesign} className="card-img" />
-          </Card>
+        ))}
       </UIContent>
     </UIContainer>
   );

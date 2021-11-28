@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
-// import { Mailto } from "../../Global/GlobalElements";
+import { Mailto } from "../../Global/GlobalElements";
 import {
   Nav,
   NavContainer,
@@ -38,15 +38,15 @@ export default function Navbar({ toggle }) {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            {/* <Mailto
+            <Mailto
               email="lindaerin00@gmail.com"
               subject=" "
               body=" "
-            > */}
+            >
               <NavBtnLink>
                 Contact 
               </NavBtnLink>
-            {/* </Mailto> */}
+            </Mailto>
           </NavBtn>
         </NavContainer>
       </Nav>
