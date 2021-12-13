@@ -1,6 +1,7 @@
 import TeamProject from "../../assets/images/teaming-project.png";
 import SchoolFinderProject from "../../assets/images/school-finder-project.png";
 import WebPortfolioProject from "../../assets/images/web-portfolio-project.png";
+import CovidTracker from "../../assets/images/covid-tracker-project.png";
 
 export const projects = [
   {
@@ -18,8 +19,11 @@ export const projects = [
     title: "Teaming System Flask App",
     link: "https://github.com/lindaerin/teaming-app",
   },
+  {
+    img: CovidTracker,
+    title: "Covid-19 Tracker",
+    link: "https://github.com/lindaerin/covid-tracker",
+  },
 ];
 
-
 export default projects;
-
