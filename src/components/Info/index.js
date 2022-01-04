@@ -17,7 +17,7 @@ const InfoSection = () => {
               <img src={Code} alt=""></img>
             </div>
             <div className="container-text">
-              <p>Applcations</p>
+              <p>Applications</p>
 
               <Link to="work">
                 <button className="btn">View Projects</button>
@@ -26,7 +26,7 @@ const InfoSection = () => {
           </Container>
           <Container className="container">
             <div className="container-img">
-              <img src={Design} alt=""></img>
+              <img src={Design} alt="ß"></img>
             </div>
             <div className="container-text">
               <p>User Interface Designs</p>
