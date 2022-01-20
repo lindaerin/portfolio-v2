@@ -27,4 +27,4 @@ npm run build
 ## Contact
 Linda Li - lindaerin00@gmail.com
 
-Project Link: https://github.com/lindaerin/portfolio-v2
+Demo Link: https://lindaerin.netlify.app/
