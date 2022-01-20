@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import About from "./components/About";
@@ -13,11 +13,32 @@ import ScrollToTop from "./components/ScrollToTop";
 import "../src/index.css";
 
 function App() {
+
+  const [isLoading, setLoading] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
+
+  function fakeRequest() {
+    return new Promise(resolve => setTimeout(() => resolve(), 2500));
+  }
+
+  useEffect(() => {
+    fakeRequest().then(() => {
+      const el = document.querySelector(".loading-container");
+      if (el) {
+        el.remove();
+        setLoading(!isLoading);
+      }
+    });
+  });
+
+  if (isLoading) {
+    return null;
+  }
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <Router>
       <Sidebar isOpen={isOpen} toggle={toggle} />
