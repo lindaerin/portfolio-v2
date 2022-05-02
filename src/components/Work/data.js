@@ -2,8 +2,14 @@ import TeamProject from "../../assets/images/teaming-project.png";
 import SchoolFinderProject from "../../assets/images/school-finder-project.png";
 import WebPortfolioProject from "../../assets/images/web-portfolio-project.png";
 import CovidTracker from "../../assets/images/covid-tracker-project.png";
+import MovieProject from "../../assets/images/movie-project.png";
 
 export const projects = [
+  {
+    img: MovieProject,
+    title: "Movie React App",
+    link: "https://github.com/lindaerin/movie-react-frontend",
+  },
   {
     img: SchoolFinderProject,
     title: "School Finder",
