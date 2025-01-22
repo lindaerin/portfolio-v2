@@ -18,18 +18,13 @@ export default function Navbar({ toggle }) {
     <>
       <Nav>
         <NavContainer>
-          <NavLogo to="/">
-              {"Linda Li \nCode & Design"}
-          </NavLogo>
+          <NavLogo to="/">{"Linda Li \nCode & Design"}</NavLogo>
 
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
 
           <NavMenu>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
             <NavItem>
               <NavLinks to="work">Work</NavLinks>
             </NavItem>
@@ -38,14 +33,8 @@ export default function Navbar({ toggle }) {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <Mailto
-              email="lindaerin00@gmail.com"
-              subject=" "
-              body=" "
-            >
-              <NavBtnLink>
-                Contact 
-              </NavBtnLink>
+            <Mailto email="lindaerin00@gmail.com" subject=" " body=" ">
+              <NavBtnLink>Contact</NavBtnLink>
             </Mailto>
           </NavBtn>
         </NavContainer>

@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
-import About from "./components/About";
 import Work from "./components/Work";
 import Design from "./components/UIDesign";
 import Footer from "./components/Footer";
@@ -13,12 +12,11 @@ import ScrollToTop from "./components/ScrollToTop";
 import "../src/index.css";
 
 function App() {
-
   const [isLoading, setLoading] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
 
   function fakeRequest() {
-    return new Promise(resolve => setTimeout(() => resolve(), 2500));
+    return new Promise((resolve) => setTimeout(() => resolve(), 2500));
   }
 
   useEffect(() => {
@@ -47,7 +45,6 @@ function App() {
       <ScrollToTop />
       <Switch>
         <Route path="/" component={HomePage} exact />
-        <Route path="/about" component={About} exact />
         <Route path="/work" component={Work} exact />
         <Route path="/design" component={Design} exact />
       </Switch>

@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 export const HeroContainer = styled.div`
   background: none;
   padding: 10px 160px 250px;
-  height: 300px;
+  height: 230px;
   position: relative;
   z-index: 1;
   max-width: 1450px;
@@ -37,7 +37,7 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.div`
   color: #e5e5e5;
-  font-size: 73px;
+  font-size: 65px;
   white-space: pre-wrap;
   font-family: "Bitter", serif;
   line-height: 86px;
@@ -59,7 +59,9 @@ export const HeroH1 = styled.div`
   }
 `;
 
-export const HeroDescription = styled.p`
+export const HeroDescription = styled.div`
+  display: flex;
+  flex-direction: column;
   color: #e5e5e5;
   font-size: 18px;
   max-width: 600px;
